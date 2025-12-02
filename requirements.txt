@@ -1,0 +1,27 @@
+# Core dependencies
+pandas>=2.0.0,<3.0.0
+openpyxl>=3.1.0,<4.0.0  # для работы с .xlsx файлами
+xlrd>=2.0.0,<3.0.0      # для работы с .xls файлами (опционально)
+
+# OpenAI API
+openai>=1.0.0,<2.0.0
+
+# Qdrant vector database
+qdrant-client>=1.7.0,<2.0.0
+
+# Configuration
+python-dotenv>=1.0.0,<2.0.0
+PyYAML>=6.0.0,<7.0.0
+
+# GUI (tkinter входит в стандартную поставку Python, но на Linux может потребоваться установка)
+# Для Ubuntu/Debian: sudo apt-get install python3-tk
+# Для macOS и Windows: tkinter уже включен
+
+# Примечание: следующие модули встроены в Python и не требуют установки:
+# - hashlib (хеширование)
+# - logging (логирование)
+# - argparse (CLI аргументы)
+# - dataclasses (Python 3.7+)
+# - typing (Python 3.5+)
+# - concurrent.futures (Python 3.2+)
+# - time, os, sys, json (стандартная библиотека)
